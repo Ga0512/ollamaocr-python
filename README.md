@@ -13,12 +13,15 @@ A Python-based OCR tool leveraging the **Llama 3.2-Vision** model for highly acc
 
 ## System Requirements
 - **Python** 3.8 or higher
-- **Ollama Server** running locally
+- [**Ollama Server**](https://ollama.ai) running locally
 - **Llama 3.2-Vision** model installed
 
 ### Prerequisites
 1. Ensure the **Ollama server** is running before using the tool.
 2. Download and configure the **Llama 3.2-Vision** model for OCR tasks.
+   ```bash
+   ollama pull llama3.2-vision
+   ```
 
 ---
 
@@ -33,7 +36,7 @@ pip install ollamaocr-python
 Basic Usage
 
 ```
-from ollamaocr import OllamaOCR
+from ollamaocr_python.ollamaocr import OllamaOCR
 
 # Initialize the OCR tool
 ocr = OllamaOCR()
@@ -51,7 +54,7 @@ print(json_result)
 The class provides comprehensive error handling for unsupported formats or invalid configurations:
 
 ```
-from ollamaocr import OllamaOCR
+from ollamaocr_python.ollamaocr import OllamaOCR
 
 ocr = OllamaOCR()
 
