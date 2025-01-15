@@ -2,6 +2,9 @@
 
 A Python-based OCR tool leveraging the **Llama 3.2-Vision** model for highly accurate text recognition from images, preserving original formatting and structure.
 
+![image](https://github.com/user-attachments/assets/a030ef88-0bfd-4b18-9897-fea2fce83346)
+
+
 ## Features
 - 🚀 **High Accuracy**: Text recognition powered by the **Llama 3.2-Vision** model.
 - 📝 **Preserves Formatting**: Maintains the original structure and layout of the recognized text.
